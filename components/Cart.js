@@ -66,8 +66,8 @@ const Cart = () => {
                 <img
                   src={urlFor(item.imglink)}
                   alt={item.title}
-                  width={70}
-                  height={70}
+                  width={60}
+                  height={60}
                 />
                 <div className={styles.cart_btns}>
                   <AiFillPlusSquare onClick={() => addToCart(item)} />
