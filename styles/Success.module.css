@@ -1,0 +1,25 @@
+.success_container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.success_container svg {
+  color: green;
+  margin: 2rem auto;
+}
+
+.success_container h2 {
+  color: #02294d;
+  font-size: 1.6rem;
+  margin: 1rem auto;
+}
+
+.success_container a {
+  color: red;
+  margin-left: 0.5rem;
+}

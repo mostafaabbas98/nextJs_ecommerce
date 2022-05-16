@@ -1,0 +1,63 @@
+.heroBanner_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14395a;
+  padding-top: 5rem;
+}
+
+.heroBanner_container img {
+  width: 500px;
+  height: 500px;
+  filter: drop-shadow(0 0 0.5rem #fff);
+}
+
+.heroBanner_container > *,
+.heroBanner_detila h1,
+.heroBanner_detila h4 {
+  background-color: transparent;
+}
+
+.heroBanner_detila {
+  line-height: 2rem;
+  color: #fff;
+}
+.heroBanner_detila p {
+  color: #f00;
+}
+
+.heroBanner_detila button {
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #02294d;
+  color: #02294d;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.heroBanner_detila button:hover {
+  background-color: #02294d;
+  color: #fff;
+  border: 2px solid #02294d;
+}
+
+@media screen and (max-width: 687px) {
+  .heroBanner_container {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .heroBanner_detila {
+    text-align: center;
+  }
+  .heroBanner_detila h1 {
+    font-size: 1.3rem;
+  }
+
+  .heroBanner_container img {
+    width: 300px;
+    height: 300px;
+  }
+}
